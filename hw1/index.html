@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+                <h1 class="header">Gülbahçe Burger</h1>
+                <ul class="list">
+                    <li> <button onclick="aboutUs(); changeColor(1)" class="about-us-button" id="button">About Us</button></li>
+                    <li> <button onclick="darkMode()" class="mode-button">Switch to Dark Mode</button></li>
+                </ul>
+        </div>
+        <div class="about-us" id="about-us" style="display: none">
+            <p>About Us:</p>
+            <p>Gülbahçe Burger is a fast food joint in Urla/İzmir. It opened for business in 2023</p>
+        </div>
+        <div class="experience" id="experience">
+            <p>Please enter your name for a personalized experience: </p>
+            <input type="text" id="name">
+            <button onclick="experience()" type="button" id="experience-button">Submit</button>
+
+        </div>
+        <div class="experience" id="experience2" style="display: none;">
+            <p>Welcome, </p>
+            <p id="experience-name">-Name-</p>
+        </div>
+    </header>
+    <section>
+        <div class="top-menu">
+            <div class="item">
+                <img src="pictures/cheeseburger.jpg" width="250" height="180">
+                <div class="price">
+                    <p>Cheeseburger</p>
+                    <p>70TL</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pictures/onion_rings.jpg" width="250" height="180">
+                <div class="price">
+                    <p>Onion Rings</p>
+                    <p>30TL</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pictures/fries.jpg" width="250" height="180">
+                <div class="price">
+                    <p>French Fries</p>
+                    <p>25TL</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-menu">
+            <div class="item">
+                <img src="pictures/chicken_burger.jpg" width="250" height="180">
+                <div class="price">
+                    <p>Chicken Burger</p>
+                    <p>60TL</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pictures/fizzy_drink.jpg" width="200" height="180">
+                <div class="price">
+                    <p>Fizzy Drink</p>
+                    <p>20TL</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pictures/water.jpg" width="130" height="180">
+                <div class="price">
+                    <p>Water</p>
+                    <p>10TL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer" id="footer">
+            <button onclick="contactInfo()" class="contact-info-button" id="">Contact Info</button>
+            <button onclick="locations()" class="location-button" id="">Location</button>
+        </div>
+        <div class="contact-info" id="contact-info" style="display:none">
+            <div class="icons">
+                <img src="pictures/phone emblem.jpg" width="30" height="30">
+                <p>+90 123 456 7788</p>
+            </div>
+            <div class="icons">
+                <img src="pictures/instagram_emblem.webp" width="30" height="30">
+                <p>instagram.com/gbahceburger</p>
+            </div>
+            <div class="icons">
+                <img src="pictures/twitter_emblem.jpg" width="30" height="30">
+                <p>twitter.com/gbahceburger</p>
+            </div>
+            <div class="icons">
+                <img src="pictures/mail_emblem.png" width="30" height="30">
+                <p>gbahceburger@mail.com</p>
+            </div>
+        </div>
+        <div class="location" id="location" style="display: none">
+            <div class="address">
+                <p>Address:</p><br>
+                <p>12087 Sk. Gülbahçe/Urla/İzmir</p>
+            </div>
+            <div class="map">
+                <img src="pictures/fake_map_location.png" width="600" height="300">
+            </div>
+            
+
+        </div>
+        
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

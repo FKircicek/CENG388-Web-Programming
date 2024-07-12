@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-dark-mode{
+    background-color: rgb(134, 131, 131);
+}
+
+/* navigation bar */
+.header{
+    color: #000000;
+    padding-left: 10px;
+}
+.navbar{
+    background-color: rgb(134, 131, 131);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 70px;
+    margin: 5px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.about-us{
+    background-color: rgb(134, 131, 131);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 70px;
+    margin: 5px;
+
+}
+.mode-button{
+    color: #032900;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(134, 131, 131);
+}
+.about-us-button{
+    color:  #001AFF;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(134, 131, 131);
+}
+
+/* navbar darkmode */
+.navbar-dark-mode{
+    background-color: rgb(66, 65, 65);
+}
+.about-us-dark-mode{
+    color: #00C2FF;
+    background-color: rgb(66, 65, 65);
+}
+.header-dark-mode{
+    color: white;
+}
+.button-dark-mode{
+    color: #10CB00;
+    background-color: rgb(66, 65, 65);
+}
+/* experience */
+.experience{
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.experience p{
+    padding-right: 10px;
+}
+
+/* experience dark mode */
+.experience-dark-mode{
+    background-color: #000000;
+}
+.experience-dark-mode p{
+    color: white;
+}
+
+/* section */
+.top-menu{
+    display: flex;
+    justify-content: center;
+}
+.bottom-menu{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 300px;
+    height: 230px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(239, 234, 234);  
+}
+.item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* items dark mode */
+.item-dark-mode{
+    background-color:rgb(66, 65, 65);
+}
+
+.item-dark-mode p{
+    color: white;
+}
+
+/* footer */
+.footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(134, 131, 131);
+}
+
+.contact-info-button{
+    color:  #001AFF;
+    padding-left: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(134, 131, 131);
+}
+
+.location-button{
+    color:  #001AFF;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(134, 131, 131);
+}
+
+.contact-info{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(192, 190, 190);
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.location{
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(192, 190, 190);
+}
+.address{
+    padding-right: 100px;
+    padding-top: 200px;
+}
+
+.map{
+    padding-left: 100px;
+    padding-top: 10px;
+    margin-left: 80px;
+}
+
+/* footer dark mode  */
+
+.footer-dark-mode{
+    background-color: rgb(66, 65, 65);
+}
+
+.contact-info-dark-mode{
+    color: #00C2FF;
+    background-color: rgb(66, 65, 65);
+}
+
+.location-button-dark-mode{
+    color: #00C2FF;
+    background-color: rgb(66, 65, 65);
+}
